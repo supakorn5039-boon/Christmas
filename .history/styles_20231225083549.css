@@ -1,0 +1,23 @@
+body {
+  height: 100vh;
+  margin: 0;
+  background: #002b36;
+  overflow: hidden;
+  display: grid;
+  place-items: center ;
+}
+
+.xmas-tree{
+    position: relative;
+    width: 500px;
+    height: 590px;
+    z-index: -2;
+}
+
+.star{
+    z-index: 3; 
+    position: absolute;
+    color: #fffc00;
+    font-style: 40px;
+    
+}
